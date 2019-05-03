@@ -2,522 +2,439 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Esports / Esports Management Tournament Platform by 003</title>
-    <link rel="stylesheet" href="asset/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="asset/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Esports / Esports Management Tournament Platform by 003</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css1/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css1/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css1/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 559px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 560px) and (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 700px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
 </head>
 
 <body>
-    <section id="timeline">
+  <!--Navbar -->
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color1 lighten-1">
+    <a class="navbar-brand" href="#">GorillaBC E-Sport</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+      aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tournament.html">Tournament</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ranking</a>
+      </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <!--<li class="nav-item">
+        <a class="nav-link waves-effect waves-light">1
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>-->
+        <!--Register -->
+        <li class="nav-item">
+          <a href="register.html" class="nav-link">Register</a>
 
-        <div class="tl-item">
+        </li>
+        <!--login -->
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">Login</a>
 
-            <div class="tl-bg" style="background-image: url(/asset/img/w1_dota.jpg)"></div>
+        </li>
 
-            <div class="tl-year">
-                <img src="./asset/img/dota.png" alt="">
-            </div>
+        <li class="nav-item avatar dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img style="width: 30%" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg"
+              class="rounded-circle z-depth-0" alt="avatar image">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
+            <a class="dropdown-item" href="createteam.html">Create Team</a>
+            <a class="dropdown-item" href="#">Join Team</a>
+            <a class="dropdown-item" href="match.html">Show Schedule</a>
+            <a class="dropdown-item" href="#">ManagePlayerInformation</a>
+            <a class="dropdown-item" href="#">ManageTeamInformation</a>
+            <a class="dropdown-item" href="#">NoticeResultCompetition</a>
+            <a class="dropdown-item" href="#">Logout</a>
 
-            <div class="tl-content">
-                <h1>Lorem ipsum dolor sit</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+  <!-- Start your project here-->
+  <!-- Full Page Intro -->
+  <div class="view" style="margin-top: -5px;">
 
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+      muted loop>
+      <source src="test.mp4" type="video/mp4">
+    </video>
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="text-center white-text mx-5 wow fadeIn">
+
+        <h1 class="display-4 mb-4">
+          <strong>Time To Move On!!!</strong>
+        </h1>
+
+        <!-- Time Counter -->
+        <p id="time-counter" class="border border-light my-4"></p>
+
+
+        <h4 class="mb-4">
+          <strong>We have so many tournaments for you </strong>
+        </h4>
+
+        <h4 class="mb-4 d-none d-md-block">
+          <strong>Let's enjoy with the tournament </strong>
+        </h4>
+
+        <a target="_blank" href="register.html" class="btn btn-outline-white btn-lg">Register to Join Tournament
+          <i class="fas fa-graduation-cap ml-2"></i>
+        </a>
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+  <section id="timeline" style="margin-top: -5px">
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/asset/img/w1_dota.jpg)"></div>
+
+      <div class="tl-year">
+        <img src="./asset/img/dota.png" alt="">
+      </div>
+
+      <div class="tl-content">
+        <h1>Lorem ipsum dolor sit</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      </div>
+
+    </div>
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/asset/img/w2_csgo.jpg)"></div>
+
+      <div class="tl-year">
+        <img src="./asset/img/csgo.png" alt="">
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
+        <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim
+          ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis.
+          Morbi sed nisl et arcu.</p>
+      </div>
+
+    </div>
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/asset/img/w3.jpg)"></div>
+
+      <div class="tl-year">
+        <img src="./asset/img/pubg.png" alt="">
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Phasellus mauris elit</h1>
+        <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque
+          sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor
+          dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas
+          quis efficitur vel, pretium sed.</p>
+      </div>
+
+    </div>
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/asset/img/24.jpg)"></div>
+
+      <div class="tl-year">
+        <img src="./asset/img/fortnite.png" alt="">
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Mauris vitae nunc elem</h1>
+        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
+          efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut
+          varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor
+          lorem. Pellentesque dolor elit.</p>
+      </div>
+
+    </div>
+  </section>
+  <div>
+
+
+
+    <section class="news" style="background-color:darkslategrey !important;">
+      <div class="container">
+        <div class="section-header border-bottom">
+          <div class="section-title">
+            <h2 style="color: white;">News Feed</h2>
+          </div>
         </div>
 
-        <div class="tl-item">
+        <div class="tab-content content">
+          <div id="all" class="news-grid active">
+            <div class="row">
+              <div class="col-md-3">
+                <article
+                  onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/navi-moves-to-second-in-european-esl-pro-league/'"
+                  style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-09.jpg');">
+                  <div class="overlay">
+                    <a class="category">
+                      GAMING </a>
 
-            <div class="tl-bg" style="background-image: url(/asset/img/w2_csgo.jpg)"></div>
+                    <h3>
+                      <a
+                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/navi-moves-to-second-in-european-esl-pro-league/">
+                        Na’Vi moves to second in European ESL Pro League </a>
+                    </h3>
 
-            <div class="tl-year">
-                <img src="./asset/img/csgo.png" alt="">
+                    <div class="details">
+                      <span class="date">
+                        October 23, 2018 </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-3">
+                <article
+                  onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/coldzera-if-you-ask-me-the-best-team-ive-played-in-my-life-ill-say-its-lg/'"
+                  style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news_thumb_14.jpg');">
+                  <div class="overlay">
+                    <a class="category">
+                      NEWS </a>
+
+                    <h3>
+                      <a
+                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/coldzera-if-you-ask-me-the-best-team-ive-played-in-my-life-ill-say-its-lg/">
+                        Coldzera: ‘If you ask me the best team I’ve played in my life </a>
+                    </h3>
+
+                    <div class="details">
+                      <span class="date">
+                        October 23, 2018 </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-3">
+                <article
+                  onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/worlds-2018-quarterfinal-predictions/'"
+                  style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-07.jpg');">
+                  <div class="overlay">
+                    <a class="category">
+                      NEWS </a>
+
+                    <h3>
+                      <a
+                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/worlds-2018-quarterfinal-predictions/">
+                        Worlds 2018 quarterfinal predictions </a>
+                    </h3>
+
+                    <div class="details">
+                      <span class="date">
+                        October 23, 2018 </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-3">
+                <article
+                  onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/black-ops-4-tourney-code-red-reviewed-we-just-got-shrouded-on-bro/'"
+                  style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-01.jpg');">
+                  <div class="overlay">
+                    <a class="category">
+                      ESPORTS </a>
+
+                    <h3>
+                      <a
+                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/black-ops-4-tourney-code-red-reviewed-we-just-got-shrouded-on-bro/">
+                        Black Ops 4 tourney, Code Red, reviewed: ‘We just got Shrouded </a>
+                    </h3>
+
+                    <div class="details">
+                      <span class="date">
+                        October 23, 2018 </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
             </div>
-
-            <div class="tl-content">
-                <h1 class="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
-                <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim
-                    ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis.
-                    Morbi sed nisl et arcu.</p>
-            </div>
-
+          </div>
         </div>
-
-        <div class="tl-item">
-
-            <div class="tl-bg" style="background-image: url(/asset/img/w3.jpg)"></div>
-
-            <div class="tl-year">
-                <img src="./asset/img/pubg.png" alt="">
-            </div>
-
-            <div class="tl-content">
-                <h1 class="f3 text--accent ttu">Phasellus mauris elit</h1>
-                <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque
-                    sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor
-                    dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas
-                    quis efficitur vel, pretium sed.</p>
-            </div>
-
-        </div>
-
-        <div class="tl-item">
-
-            <div class="tl-bg" style="background-image: url(/asset/img/24.jpg)"></div>
-
-            <div class="tl-year">
-                <img src="./asset/img/fortnite.png" alt="">
-            </div>
-
-            <div class="tl-content">
-                <h1 class="f3 text--accent ttu">Mauris vitae nunc elem</h1>
-                <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
-                    efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut
-                    varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor
-                    lorem. Pellentesque dolor elit.</p>
-            </div>
-
-        </div>
+      </div>
     </section>
 
-    <section class="teams">
-        <div class="container">
-            <div class="section-header center-column col-white">
-                <div class="section-title normal">
-                    <h2>The Teams</h2>
-                    <span>Meet our main power!</span>
-                </div>
-            </div>
+  </div>
+  <section>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
+              programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code
+              wants to be simple. We will help programmers build up concepts in different programming languages that
+              include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
 
-            <ul class="tab-nav">
-                <li class="active">
-                    <a data-toggle="tab" href="#gamefilter-1">
-                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/test.png"
-                            alt="Fortnite">
-                    </a>
-                </li>
-                <li class="">
-                    <a data-toggle="tab" href="#gamefilter-2">
-                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/ww2logo.png"
-                            alt="Call of Duty WW2">
-                    </a>
-                </li>
-                <li class="">
-                    <a data-toggle="tab" href="#gamefilter-3">
-                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/fifa_logo.png"
-                            alt="FIFA 2018">
-                    </a>
-                </li>
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
             </ul>
+          </div>
 
-            <div class="tab-content">
-                <div id="gamefilter-1" class="team-list active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="team-box">
-                                <div class="team-body">
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/team-flawed-bot">
-                                            Team Flawed Bot </a>
-                                    </h3>
-
-                                    <span>Fortnite</span>
-
-                                    <ul class="members">
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/ultramenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/img.jpg"
-                                                    alt="ultramenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/stamenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_852.jpg"
-                                                    alt="stamenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/george">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_89.jpg"
-                                                    alt="george">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/m89s">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_9111.jpg"
-                                                    alt="m89s">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="team-foot">
-                                    <div class="col">
-                                        <h5>From</h5>
-                                        <p>Serbia</p>
-                                    </div>
-
-                                    <div class="col align-right">
-                                        <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/team-flawed-bot"
-                                            class="btn-default">
-                                            Team page <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-box">
-                                <div class="team-body">
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/wings-gaming">
-                                            Wings Gaming </a>
-                                    </h3>
-
-                                    <span>Fortnite</span>
-
-                                    <ul class="members">
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/ultramenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/img.jpg"
-                                                    alt="ultramenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/stamenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_852.jpg"
-                                                    alt="stamenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/george">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_89.jpg"
-                                                    alt="george">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/m89s">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_9111.jpg"
-                                                    alt="m89s">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="team-foot">
-                                    <div class="col">
-                                        <h5>From</h5>
-                                        <p>Australia</p>
-                                    </div>
-
-                                    <div class="col align-right">
-                                        <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/wings-gaming"
-                                            class="btn-default">
-                                            Team page <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-box">
-                                <div class="team-body">
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/invictus-gaming">
-                                            Invictus Gaming </a>
-                                    </h3>
-
-                                    <span>Fortnite</span>
-
-                                    <ul class="members">
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/ultramenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/img.jpg"
-                                                    alt="ultramenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/stamenix">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_852.jpg"
-                                                    alt="stamenix">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/george">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_89.jpg"
-                                                    alt="george">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/m89s">
-                                                <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_9111.jpg"
-                                                    alt="m89s">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="team-foot">
-                                    <div class="col">
-                                        <h5>From</h5>
-                                        <p>Finland</p>
-                                    </div>
-
-                                    <div class="col align-right">
-                                        <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/invictus-gaming"
-                                            class="btn-default">
-                                            Team page <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="gamefilter-2" class="team-list">
-                    <div class="team-box">
-                        <div class="team-body">
-                            <h3>
-                                <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/fnatic-esports">
-                                    Fnatic eSports </a>
-                            </h3>
-
-                            <span>Call of Duty WW2</span>
-
-                            <ul class="members">
-                                <li>
-                                    <a
-                                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/ultramenix">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/img.jpg"
-                                            alt="ultramenix">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/stamenix">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_852.jpg"
-                                            alt="stamenix">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/george">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_89.jpg"
-                                            alt="george">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/m89s">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_9111.jpg"
-                                            alt="m89s">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="team-foot">
-                            <div class="col">
-                                <h5>From</h5>
-                                <p>Denmark</p>
-                            </div>
-
-                            <div class="col align-right">
-                                <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/fnatic-esports"
-                                    class="btn-default">
-                                    Team page <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="gamefilter-3" class="team-list">
-                    <div class="team-box">
-                        <div class="team-body">
-                            <h3>
-                                <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/gambit-gaming">
-                                    Gambit Gaming </a>
-                            </h3>
-
-                            <span>FIFA 2018</span>
-
-                            <ul class="members">
-                                <li>
-                                    <a
-                                        href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/ultramenix">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/img.jpg"
-                                            alt="ultramenix">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/stamenix">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_852.jpg"
-                                            alt="stamenix">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/george">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_89.jpg"
-                                            alt="george">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/player/m89s">
-                                        <img src="http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/player_9111.jpg"
-                                            alt="m89s">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="team-foot">
-                            <div class="col">
-                                <h5>From</h5>
-                                <p>Austria</p>
-                            </div>
-
-                            <div class="col align-right">
-                                <a href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/team/gambit-gaming"
-                                    class="btn-default">
-                                    Team page <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
         </div>
-    </section>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+              <a href="#">Scanfcode</a>.
+            </p>
+          </div>
 
-    <section class="news">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-title normal">
-                    <h2>News Feed</h2>
-                </div>
-            </div>
-
-            <div class="tab-content content">
-                <div id="all" class="news-grid active">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <article
-                                onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/navi-moves-to-second-in-european-esl-pro-league/'"
-                                style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-09.jpg');">
-                                <div class="overlay">
-                                    <a class="category">
-                                        GAMING </a>
-
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/navi-moves-to-second-in-european-esl-pro-league/">
-                                            Na’Vi moves to second in European ESL Pro League </a>
-                                    </h3>
-
-                                    <div class="details">
-                                        <span class="date">
-                                            October 23, 2018 </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-3">
-                            <article
-                                onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/coldzera-if-you-ask-me-the-best-team-ive-played-in-my-life-ill-say-its-lg/'"
-                                style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news_thumb_14.jpg');">
-                                <div class="overlay">
-                                    <a class="category">
-                                        NEWS </a>
-
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/coldzera-if-you-ask-me-the-best-team-ive-played-in-my-life-ill-say-its-lg/">
-                                            Coldzera: ‘If you ask me the best team I’ve played in my life </a>
-                                    </h3>
-
-                                    <div class="details">
-                                        <span class="date">
-                                            October 23, 2018 </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-3">
-                            <article
-                                onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/worlds-2018-quarterfinal-predictions/'"
-                                style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-07.jpg');">
-                                <div class="overlay">
-                                    <a class="category">
-                                        NEWS </a>
-
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/worlds-2018-quarterfinal-predictions/">
-                                            Worlds 2018 quarterfinal predictions </a>
-                                    </h3>
-
-                                    <div class="details">
-                                        <span class="date">
-                                            October 23, 2018 </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-3">
-                            <article
-                                onclick="window.location='http://themes.pixiesquad.com/pixiefreak/vicious-champions/black-ops-4-tourney-code-red-reviewed-we-just-got-shrouded-on-bro/'"
-                                style="background-image: url('http://themes.pixiesquad.com/pixiefreak/vicious-champions/wp-content/uploads/2018/10/news-01.jpg');">
-                                <div class="overlay">
-                                    <a class="category">
-                                        ESPORTS </a>
-
-                                    <h3>
-                                        <a
-                                            href="http://themes.pixiesquad.com/pixiefreak/vicious-champions/black-ops-4-tourney-code-red-reviewed-we-just-got-shrouded-on-bro/">
-                                            Black Ops 4 tourney, Code Red, reviewed: ‘We just got Shrouded </a>
-                                    </h3>
-
-                                    <div class="details">
-                                        <span class="date">
-                                            October 23, 2018 </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </div>
+    </footer>
+  </section>
+  <!-- /Start your project here-->
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
-<!-- development version, includes helpful console warnings -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 </html>

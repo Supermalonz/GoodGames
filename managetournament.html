@@ -112,16 +112,43 @@
     <div class="wrap-contact100">
       <form class="contact100-form validate-form">
         <span class="contact100-form-title">
-          Login
+          Manage Tournament Infomation
         </span>
 
-        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Username">
-          <span class="label-input100">Username *</span>
-          <input class="input100" type="text" name="Username" placeholder="Enter Your Username">
+        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Tournament Name">
+          <span class="label-input100">Tournament Name : </span>
+          <span class="label-input100">ink Tour</span>
         </div>
-        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Password">
-          <span class="label-input100">Password *</span>
-          <input class="input100" type="text" name="Password" placeholder="Enter Your Password">
+        <div class="wrap-input100 input100-select bg1">
+          <span class="label-input100">Start Date *</span>
+          <div>
+            <input class="input100" type="date" name = "startdate" id="example-date-input">
+            
+          </div>
+        </div>
+        <div class="wrap-input100 input100-select bg1">
+          <span class="label-input100">End Date *</span>
+          <div>
+            <input class="input100" type="date" name = "enddate" id="example-date-input">
+           
+          </div>
+        </div>
+       <div class="wrap-input100 validate-input bg1">
+          <span class="label-input100">Prize Pool</span>
+          <input class="input100" type="text" name="Prize" placeholder="Enter Prize Pool">
+        </div>
+
+
+    
+
+        <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Description">
+          <span class="label-input100">Description Your Tournament</span>
+          <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+        </div>
+
+        <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Description">
+          <span class="label-input100">Rule</span>
+          <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
         </div>
         
         
@@ -130,7 +157,7 @@
         <div class="container-contact100-form-btn">
           <button class="contact100-form-btn">
             <span>
-              Login
+              Update
               <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
             </span>
           </button>
@@ -227,7 +254,7 @@
   <script src="vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
   <script src="vendor/bootstrap/js/popper.js"></script>
- 
+  
 <!--===============================================================================================-->
   <script src="vendor/select2/select2.min.js"></script>
   <script>

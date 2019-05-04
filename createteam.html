@@ -84,24 +84,26 @@
           <a href="login.html" class="nav-link">Login</a>
 
         </li>
-
+         
         <li class="nav-item avatar dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            <img style="width: 30%" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg"
-              class="rounded-circle z-depth-0" alt="avatar image">
-          </a>
-          <div class="dropdown-menu dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <img style = "width: 30%"src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0"
+        alt="avatar image">
+      </a>
+      <div class="dropdown-menu dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
             <a class="dropdown-item" href="createteam.html">Create Team</a>
             <a class="dropdown-item" href="#">Join Team</a>
-            <a class="dropdown-item" href="#">Show Schedule</a>
-            <a class="dropdown-item" href="#">ManagePlayerInformation</a>
-            <a class="dropdown-item" href="#">ManageTeamInformation</a>
-            <a class="dropdown-item" href="#">NoticeResultCompetition</a>
+            <a class="dropdown-item" href="match.html">Show Schedule</a>
+            <a class="dropdown-item" href="ManagePlayerInfo.html">ManagePlayerInformation</a>
+            <a class="dropdown-item" href="ManageTeamInfo.html">ManageTeamInformation</a>
+            <a class="dropdown-item" href="Notice.html">NoticeResultCompetition</a>
+            <a class="dropdown-item" href="createtournament.html">CreateTournament</a>
+            <a class="dropdown-item" href="managetournament.html">ManageTournament</a>
             <a class="dropdown-item" href="#">Logout</a>
 
           </div>
-        </li>
+  </li>
       </ul>
     </div>
   </nav>
@@ -118,19 +120,19 @@
           <span class="label-input100">TeamName *</span>
           <input class="input100" type="text" name="TeamName" placeholder="Enter Your TeamName">
         </div>
-        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Password">
+        <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your ShortTeamName">
           <span class="label-input100">ShortTeamName*</span>
           <input class="input100" type="text" name="ShortTeamName" placeholder="Enter Your ShortTeamName">
         </div>
         <div class="wrap-input100 bg1 rs1-wrap-input100 ">
-          <span class="label-input100">Phone</span>
+          <span class="label-input100">Phone*</span>
           <input class="input100" type="text" name="phone" placeholder="Enter Phone Number">
         </div>
 
 
         <div class="wrap-input100 validate-input bg1">
           <div class="input-group-prepend">
-            <span class="label-input100">Your Logo Team</span>
+            <span class="label-input100">Your Logo Team*</span>
           </div>
           <div class="custom-file">
             <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
@@ -140,7 +142,7 @@
 
         <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Please Type Your Description">
           <span class="label-input100">Description Your Team</span>
-          <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+          <textarea class="input100" name="teamdescription" placeholder="Your Description here..."></textarea>
         </div>
 
 
@@ -209,6 +211,7 @@
             <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
             <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
           </ul>
+
         </div>
       </div>
       <hr>
@@ -249,7 +252,7 @@
   <script src="vendor/animsition/js/animsition.min.js"></script>
   <!--===============================================================================================-->
   <script src="vendor/bootstrap/js/popper.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
   <!--===============================================================================================-->
   <script src="vendor/select2/select2.min.js"></script>
   <script>
